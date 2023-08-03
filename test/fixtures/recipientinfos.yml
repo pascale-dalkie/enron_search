@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  mid: 1
+  rtype: MyString
+  rvalue: MyString
+  dater: 2023-08-03 16:50:51
+
+two:
+  mid: 1
+  rtype: MyString
+  rvalue: MyString
+  dater: 2023-08-03 16:50:51
