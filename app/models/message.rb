@@ -10,6 +10,6 @@ class Message < ApplicationRecord
     # allow sender to be used to scope a query
     string :sender
     # allow date to be used in a search range
-    time :date
+    time :date, :trie => true
   end
 end
