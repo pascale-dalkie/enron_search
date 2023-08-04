@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="10eea821-0392-492f-8fa4-9698e92b6342" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/api/enron_data_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/api/enron_data_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/message.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/message.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/services/message_search_service.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/message_search_service.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -232,7 +230,7 @@
       <updated>1690974053049</updated>
       <workItem from="1690974057506" duration="497000" />
       <workItem from="1691034502045" duration="1327000" />
-      <workItem from="1691038047725" duration="27877000" />
+      <workItem from="1691038047725" duration="29965000" />
     </task>
     <servers />
   </component>
