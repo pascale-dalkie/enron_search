@@ -3,6 +3,13 @@ class Message < ApplicationRecord
   has_many :recepientinfos, class_name: 'Recipientinfo', foreign_key: 'mid'
 
   searchable do
-    text :subject, :body
+    # subject and body are searchable fields and can have matches extracted from them
+    text :subject, :stored => true
+    text :body, :stored => true
+
+    # allow sender to be used to scope a query
+    string :sender
+    # allow date to be used in a search range
+    time :date
   end
 end

@@ -186,6 +186,9 @@ GEM
       rails (>= 3)
       sunspot (= 2.6.0)
     sunspot_solr (2.6.0)
+    sunspot_test (0.4.2)
+      sunspot_rails (>= 2.1.1)
+      sunspot_solr
     thor (1.2.2)
     timeout (0.4.0)
     tzinfo (2.0.6)
@@ -209,6 +212,7 @@ DEPENDENCIES
   rspec-rails
   sunspot_rails
   sunspot_solr
+  sunspot_test
   tzinfo-data
 
 RUBY VERSION
